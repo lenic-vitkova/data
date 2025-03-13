@@ -1,0 +1,13 @@
+flight_number = "BA 853"
+
+# Napr. cislo letu
+# RETEZEC:  "BA 853"
+# POZICE:    123456
+# INDEX:     012345 / ZAČÍNÁ SE OD 0!
+
+print(flight_number[0])
+print(flight_number[1])
+print(flight_number[5])
+
+print(flight_number[-1])
+print(flight_number[-2])
