@@ -1,10 +1,10 @@
-number_of_tickets = 100
-price_per_ticket = 190
+number_of_tickets = 150
+price_per_ticket = 150
 total_price = number_of_tickets * price_per_ticket
 
 print(total_price)
 
-if total_price >= 1500:
+if total_price >= 2000:
     total_price = total_price * 0.8
     print ("Získáváte slevu 20%")
 elif total_price >= 500: 
